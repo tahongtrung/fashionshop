@@ -1,0 +1,190 @@
+
+#vnt-main .box_mid {
+    padding-bottom: 62px;
+}
+#vnt-navation{
+  width: 1170px;
+  margin: 0px auto;
+  background-color: #f7f7f7;
+  height: 35px;
+    border-top: 1px solid #e5e5e5;
+}
+.breadcrumb{
+  border-radius: 0px;
+  background-color: transparent;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  margin: 0px;
+  line-height: 18px;
+}
+.breadcrumb .navation{
+  float: right;
+}
+.breadcrumb ul li + li::before {
+    content: " / ";
+    padding: 0px 10px;
+    color: #545454;
+}
+.breadcrumb ul li{
+    position: relative;
+    display: inline-block;
+}
+.breadcrumb ul li.active a,
+.breadcrumb ul li:focus
+{
+    color: #545454;
+}
+.breadcrumb ul li a{
+    font-size: 12px;
+    color: #545454;
+    text-decoration: none;
+    line-height: 18px;
+}
+.breadcrumb ul li a:hover{
+    color: #545454;
+}
+.breadcrumb ul li:last-child {
+    color: #545454;
+}
+.breadcrumb ul li img{
+  padding-bottom: 5px;
+}
+
+.head_menu{
+  width: 50%;
+  float: right;
+  position: relative;
+  border-radius: 0px;
+  background-color: transparent;
+ 
+ 
+  font-size: 12px;
+  margin: 0px;
+  line-height: 18px;
+}
+.head_menu ul{
+  float: right;
+  margin-bottom: 2px;
+}
+.head_menu ul li + li::before {
+    content: " / ";
+    padding: 0px 10px;
+    color: #000;
+}
+.head_menu ul li{
+    position: relative;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.head_menu ul li.current a,
+.head_menu ul li:focus
+{
+    color: #333333;
+}
+
+.head_menu ul li a{
+    font-size: 12px;
+    color: #9d9d9d;
+    text-decoration: none;
+    line-height: 18px;
+      font-family: 'Source Sans Pro', sans-serif;
+}
+.head_menu ul li a:hover{
+    color: #333333;
+}
+.head_menu ul li:last-child {
+    color: #9d9d9d;
+}
+
+
+#vnt-content .mod-content #vnt-sidebar{
+  width: 300px;
+  float: left;
+  padding-right: 30px;
+}
+#vnt-content .mod-content #vnt-sidebar .box{
+  width: 100%;
+  position: relative;
+}
+#vnt-content .mod-content #vnt-sidebar .box-title .fTitle{
+  width: 100%;
+  position: relative;
+  background: url('../images/bg_title.png')left top 38px no-repeat;
+
+}
+#vnt-main .box_mid .mid-title .titleL h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0px;
+    padding:0;
+    padding-top: 10px;
+    color: #555555;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 40px;
+    background: url('../images/bg_title.png') left 17px no-repeat;
+}
+#vnt-content .mod-content #vnt-sidebar .box-title .fTitle h2{
+  font-size: 30px;
+  line-height: 38px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #00abe5;
+  padding-left: 41px;
+      padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+#vnt-content .mod-content #vnt-sidebar .box .box-content{
+  width: 100%;
+  position: relative;
+}
+#vnt-content .mod-content #vnt-sidebar .box .box-content ul li{
+  padding: 8px 0px;
+    position: relative;
+    background: url('../images/box_menu.png') no-repeat center left;
+}
+#vnt-content .mod-content #vnt-sidebar .box .box-content ul li a{
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+  padding-left: 15px;
+}
+#vnt-content .mod-content #vnt-sidebar .box .box-content ul li.current a,
+#vnt-content .mod-content #vnt-sidebar .box .box-content ul li:hover a
+{
+  font-weight: bold;
+  color: #00abe5;
+}
+
+#vnt-main .box_mid .mid-title h1{
+  padding-bottom: 20px;
+}
+
+
+#vnt-content .mod-content #vnt-sidebar .box .box-content .new-box{
+  position: relative;
+  width: 100%;
+  background: url('../images/box_icon.jpg')left top 17px no-repeat;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom:dotted 1px #cccccc;
+}
+#vnt-content .mod-content #vnt-sidebar .box .box-content .new-box .date{
+  width: 100%;
+  position: relative;
+  padding-left: 40px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888888;
+  text-align: left;
+  padding-bottom: 3px;
+}
+#vnt-content .mod-content #vnt-sidebar .box .box-content .new-box p{
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+  text-align: justify;
+    padding-left: 40px;
+}

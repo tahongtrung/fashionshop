@@ -1,0 +1,54 @@
+.chatShow{
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    border-color: black;
+    border: 1px solid black;
+    position: fixed;
+    display: block;
+    bottom: 0px;
+    right: 0;
+    z-index: 20;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 3px 2px;
+
+    animation: show 0.5s;
+    animation-timing-function: ease-in;
+}
+.chatHide{
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    border-color: black;
+    border: 1px solid black;
+    position: fixed;
+    display: block;
+    bottom: -34%;
+    right: 0;
+    z-index: 20;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 3px 2px;
+
+    animation: hide 1s;
+    animation-timing-function: ease-in;
+}
+@keyframes show {
+    from {bottom: -34%;}
+    to {bottom: 0;}
+}
+@keyframes hide {
+    from {bottom: : 0px;}
+    to {bottom: -34%;}
+}
+.chat-title{
+    background-color: red;
+    height: 15%;
+}
+.chat-content{
+    overflow-y: scroll;
+    height: 60%;
+}
+.chat-textbox{
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+}
+
